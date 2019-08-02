@@ -241,6 +241,16 @@
         <param index="6">Reserved, send 0</param>
         <param index="7">Reserved, send 0</param>
       </entry>
+      <entry value="2950" name="MAV_DO_PATHPLAN_STARTSTOP" hasLocation="false" isDestination="false">
+        <description>Pathplnning will takeplace between two of these waypoints, only basic waypoints are considered</description>
+        <param index="1">Reserved, send 0</param>
+        <param index="2">Reserved, send 0</param>
+        <param index="3">Reserved, send 0</param>
+        <param index="4">Reserved, send 0</param>
+        <param index="5">Reserved, send 0</param>
+        <param index="6">Reserved, send 0</param>
+        <param index="7">Reserved, send 0</param>
+      </entry>
     </enum>
     <!-- AP_Limits Enums -->
     <enum name="LIMITS_STATE">
